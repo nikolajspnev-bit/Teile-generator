@@ -1,0 +1,21 @@
+{
+  "name": "teile-generator",
+  "version": "0.1.0",
+  "description": "Parametrischer Teile-Generator für den 3D-Druck (STL direkt im Browser)",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "test": "node scripts/test-parts.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "manifold-3d": "^3.2.1",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "private": true,
+  "type": "module"
+}
